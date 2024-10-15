@@ -1,0 +1,65 @@
+export const wukongConfig = {
+  airdropPerMint: 50_000,
+  goldMintTimes: 5,
+  mintLink: 'https://launchmynft.io/sol/8646',
+  artworks: 10_000,
+  artists: 5,
+  airdropAddresses: 300_000,
+}
+
+export const wukongLinks = {
+  x: 'https://x.com/eastwukong',
+  telegram: 'https://t.me/eastwukong',
+}
+
+export const wukongAirdropProjects = {
+  memecoin: [
+    'BONK',
+    'MEW',
+    'WIF',
+    'BOME',
+    'POPCAT',
+    'MUMU',
+    'SLERF',
+    'PONKE',
+    'MOODENG',
+    'MYRO',
+    'MICHI',
+    'BILLY',
+    'SAMO',
+  ],
+  nft: [
+    'SMB Gen2',
+    'DeGods',
+    'Retardio Cousins',
+    'y00ts',
+    'Mad Lads',
+    'Famous Fox Federation',
+    'GigaBuds',
+    'Saga Monkes',
+    'Frogana',
+  ],
+  wukongx: [
+    'SMB Gen2',
+    'DeGods',
+    'Retardio Cousins',
+    'y00ts',
+    'Mad Lads',
+    'Famous Fox Federation',
+    'GigaBuds',
+    'Saga Monkes',
+    'Frogana',
+  ],
+  btc: [
+    'FB',
+    'Pizza',
+    'Piin',
+    'Sats',
+    'Ordi',
+    'π',
+    'Rats',
+    'Rune Stone NFT',
+    'Bitcoin Puppets NFT',
+    'DOG',
+  ],
+}
