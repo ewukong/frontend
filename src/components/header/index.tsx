@@ -20,13 +20,11 @@ import { cn } from '@/lib/utils'
 export const navs = [
   {
     label: () => t('mining'),
-    // href: Routes.MiningPage,
-    href: '#',
+    href: Routes.MiningPage,
   },
   {
     label: () => t('airdrop'),
-    // href: Routes.AirdropPage,
-    href: '#',
+    href: Routes.AirdropPage,
   },
   {
     label: () => t('team'),
