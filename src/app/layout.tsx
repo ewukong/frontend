@@ -19,6 +19,12 @@ dayjs.extend(duration)
 dayjs.locale(dayjsZh)
 dayjs.locale(dayjsEn)
 
+declare module 'react' {
+  interface CSSProperties {
+    [k: `--${string}`]: string
+  }
+}
+
 export const metadata: Metadata = {
   title: 'Wukong',
   description:
