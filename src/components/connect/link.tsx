@@ -24,20 +24,6 @@ export const ConnectLink = ({
     )
   }
 
-  // TODO: temp
-  return (
-    <Link
-      href="#"
-      className="text-white"
-      onClick={(e) => {
-        e.preventDefault()
-        toast.info(t('coming-soon'))
-      }}
-    >
-      {t('connect')}
-    </Link>
-  )
-
   return (
     <ConnectDialog>
       <Link href="#" className="text-white">

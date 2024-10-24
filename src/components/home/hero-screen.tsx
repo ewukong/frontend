@@ -90,11 +90,6 @@ export const HeroScreen = () => {
               key={label}
               href={(href || path)!}
               target={href ? '_blank' : '_self'}
-              // TODO: temp
-              onClick={(e) => {
-                e.preventDefault()
-                toast.info(t('coming-soon'))
-              }}
               className="first:col-span-2"
             >
               <PulsatingButton

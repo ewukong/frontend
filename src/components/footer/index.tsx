@@ -72,16 +72,7 @@ export const Footer = () => {
         <ul className="flex items-center space-x-10 pb-2">
           {navs.map(({ label, path }, i) => (
             <li key={i}>
-              <Link
-                href={path}
-                className="text-white"
-                // TODO: temp
-                onClick={(e) => {
-                  if (path === Routes.TeamPage) return
-                  e.preventDefault()
-                  toast.info(t('coming-soon'))
-                }}
-              >
+              <Link href={path} className="text-white">
                 {label()}
               </Link>
             </li>

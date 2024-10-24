@@ -1,7 +1,7 @@
 export const wukongConfig = {
   airdropPerMint: 50_000,
   goldMintTimes: 5,
-  mintLink: 'https://launchmynft.io/sol/8646',
+  mintLink: 'https://launchmynft.io/sol/9204',
   artworks: 10_000,
   artists: 5,
   airdropAddresses: 300_000,

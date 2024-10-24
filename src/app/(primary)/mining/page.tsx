@@ -11,10 +11,6 @@ import { useNftArea } from '@/hooks/mining/use-nft-area'
 import { formatDayjs } from '@/utils/format'
 
 export default function MiningPage() {
-  // TODO: temp
-  return (
-    <p className="min-h-screen flex justify-center items-center">Coming Soon</p>
-  )
   const [selectedNft, setSelectedNft] = useState('')
   const { nftList, hasStakingNft, refetchList } = useNftList()
   // Only polling when NFT is staking.
